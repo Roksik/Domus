@@ -76,6 +76,7 @@
     width: 15px;
     height: 13px;
     display: inline-block;
+    margin-bottom: -2px ;
 }
 
 .adress
