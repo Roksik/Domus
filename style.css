@@ -1,0 +1,164 @@
+@font-face
+{
+    font-family: RobotoMedium;
+    src: url(./fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face
+{
+    font-family: Roboto;
+    src: url(./fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: RobotoBold;
+    src: url(./fonts/roboto/Roboto-Bold.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.promo
+{
+    background: url(./images/backgroundTop.jpg) no-repeat;
+    background-size: cover;
+
+    height: 840px;
+}
+
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.top
+{
+    width: 1056px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.siteMenu
+{
+    display: inline-block;
+    width: 800px;
+    height: 90px;
+
+    margin-left: 95px;
+    vertical-align: bottom;
+
+}
+
+.logo
+{
+    background: url(./images/domusLogo.png) no-repeat;
+    background-size: cover;
+    width: 153px;
+    height: 87px;
+    display: inline-block;
+
+    margin-top: 10px;
+}
+
+.metro
+{
+    background: url(./images/metroLogo.png) no-repeat;
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+    margin-bottom: -2px ;
+}
+
+.address
+{
+    display: inline-block;
+    padding: 20px 0 22px 0;
+
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+
+    color: #8b8b94;
+}
+
+.fullAddress
+{
+    padding-left: 24px;
+}
+
+.phone
+{
+    text-align: right;
+    display: inline-block;
+    margin-left: 224px;
+
+    font-family: RobotoBold, sans-serif;
+    font-size: 16px;
+}
+
+.phone_first
+{
+    color: #34a462;
+}
+
+.phone_big
+{
+    color: #8b8b94;
+}
+
+.menu:before
+{
+    width: 100%;
+    height: 0.5px;
+
+    border-top: 1px solid rgba(63,63,77,.6);
+
+    content: '';
+
+    position: absolute;
+
+    left: -1px;
+    top: -15px;
+}
+
+.menu
+{
+    margin-top: 14px;
+    position: relative;
+}
+
+.menu li
+{
+    list-style-type: none;
+    display: inline;
+    width: 800px;
+    height: 20px;
+    padding-right: 58px;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+    font-family: RobotoMedium, sans-serif;
+    font-size: 12px;
+    color: #eaeaec;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: #eaeaec;
+}
+
+.menu a:active,
+.menu a:hover
+{
+    color: #34a462;
+}
+
+.menu li:last-child
+{
+    padding-right: 1px;
+}
