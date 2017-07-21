@@ -22,6 +22,12 @@
     src: url(./fonts/Lato-Bold.ttf);
 }
 
+@font-face
+{
+    font-family: LatoMedium;
+    src: url(./fonts/Lato-Medium.ttf);
+}
+
 *
 {
     margin: 0;
@@ -199,7 +205,7 @@
     height: 5px;
     box-sizing: border-box;
 
-    border-top: 1px solid #4aa770;
+    border-top: 4px solid #4aa770;
 
     content: '';
 
@@ -211,17 +217,25 @@
     margin-left: -55px;
 }
 
-.call
+.mainDescription input
 {
+    color: #c6c7cc;
+    font-family: LatoMedium, sans-serif;
+    font-size: 14px;
+
     border: inherit;
     border-bottom: 1px solid rgba(119,119,129,.6);
     background-color: inherit;
 
-    font-family: LatoBold, sans-serif;
-    font-size: 14px;
     padding-bottom: 10px;
     padding-left: 22px;
+}
+
+input::-webkit-input-placeholder
+{
     color: #c6c7cc;
+    font-family: LatoMedium, sans-serif;
+    font-size: 14px;
 }
 
 .button
@@ -233,8 +247,8 @@
 
     width: 225px;
     height: 46px;
-    margin: 23px 0 0 35px;
-    padding-top: 18px;
+    margin: 20px 0 0 35px;
+    padding-top: 15px;
 
     text-align: center;
     text-transform: uppercase;
@@ -246,4 +260,15 @@
     text-decoration: none;
 
     color: #ffffff;
+}
+
+.button:after
+{
+    background: url(./images/arrow.png) no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+
+    content: '';
+    margin-left: 8px;
 }
