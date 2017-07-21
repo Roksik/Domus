@@ -28,6 +28,12 @@
     src: url(./fonts/Lato-Medium.ttf);
 }
 
+@font-face
+{
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
 *
 {
     margin: 0;
@@ -140,14 +146,14 @@
 .menu
 {
     margin-top: 14px;
-    position: relative;
+    position: absolute;
 }
 
 .menu li
 {
     list-style-type: none;
-    display: inline;
-    width: 800px;
+    display: inline-block;
+
     height: 20px;
     padding-right: 58px;
     text-transform: uppercase;
@@ -156,6 +162,7 @@
     font-family: RobotoMedium, sans-serif;
     font-size: 12px;
     color: #eaeaec;
+
 }
 
 .menu a
@@ -271,4 +278,71 @@ input::-webkit-input-placeholder
 
     content: '';
     margin-left: 8px;
+}
+
+.projectsHeader
+{
+    text-align: center;
+
+    font-family: LatoBold, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #2d2d38;
+
+    padding-top: 58px;
+}
+
+.tags li
+{
+    list-style-type: none;
+    display: inline-block;
+
+    padding: 7px 20px;
+    margin: 10px;
+
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    color: #626264;
+
+    border: 2px solid #d9d9d9;
+    border-radius: 40px;
+    box-sizing: border-box;
+    height: 28px;
+}
+
+.tags a
+{
+    text-decoration: none;
+    color: #626264;
+}
+
+.projectsPhoto
+{
+    padding-top: 32px;
+}
+
+.projectsPhoto li
+{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.showMore {
+    text-align: center;
+    width: 280px;
+    height: 50px;
+
+    position: absolute;
+    right: 50%;
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2d2d38;
+
+    margin: 32px -130px 70px 0;
+    padding-top: 16px;
+    border: 2px solid #34a462;
+    border-radius: 40px;
+    box-sizing: border-box;
 }
