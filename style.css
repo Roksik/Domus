@@ -59,12 +59,8 @@
 
 }
 
-.img
+.logo
 {
-    background: url("./images/domusLogo.png") no-repeat;
-    background-size: cover;
-    width: 153px;
-    height: 87px;
     display: inline-block;
 
     margin-top: 10px;
@@ -82,7 +78,7 @@
 .address
 {
     display: inline-block;
-    padding: 5px 0 22px 0;
+    padding: 3px 0 22px 0;
 
     font-family: Roboto, sans-serif;
     font-size: 13px;
@@ -211,7 +207,7 @@ input::-webkit-input-placeholder
     font-size: 14px;
 }
 
-.button
+button
 {
     font-family: RobotoMedium, sans-serif;
     font-size: 14px;
@@ -221,12 +217,13 @@ input::-webkit-input-placeholder
     width: 225px;
     height: 46px;
     margin: 20px 0 0 35px;
-    padding-top: 15px;
+    padding-top: 5px;
 
     text-align: center;
     text-transform: uppercase;
 
     border-radius: 45px;
+    border: none;
     background-color: #6652cb;
     box-sizing: border-box;
 
@@ -235,7 +232,7 @@ input::-webkit-input-placeholder
     color: #ffffff;
 }
 
-.button:after
+button:after
 {
     background: url("./images/arrow.png") no-repeat;
     width: 10px;
