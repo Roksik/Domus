@@ -36,7 +36,7 @@
 
 .promo
 {
-    background: url(./images/backgroundTop.jpg) no-repeat;
+    background: url("./images/backgroundTop.jpg") no-repeat;
     background-size: cover;
 
     height: 840px;
@@ -68,7 +68,7 @@
 
 .logo
 {
-    background: url(./images/domusLogo.png) no-repeat;
+    background: url("./images/domusLogo.png") no-repeat;
     background-size: cover;
     width: 153px;
     height: 87px;
@@ -79,7 +79,7 @@
 
 .metro
 {
-    background: url(./images/metroLogo.png) no-repeat;
+    background: url("./images/metroLogo.png") no-repeat;
     width: 15px;
     height: 13px;
     display: inline-block;
@@ -264,7 +264,7 @@ input::-webkit-input-placeholder
 
 .button:after
 {
-    background: url(./images/arrow.png) no-repeat;
+    background: url("./images/arrow.png") no-repeat;
     width: 10px;
     height: 10px;
     display: inline-block;
