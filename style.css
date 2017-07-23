@@ -34,6 +34,12 @@
     src: url(./fonts/Lato-Regular.ttf);
 }
 
+@font-face
+{
+    font-family: LatoLight;
+    src: url(./fonts/Lato-Light.ttf);
+}
+
 *
 {
     margin: 0;
@@ -358,6 +364,59 @@ input::-webkit-input-placeholder
     border: 2px solid #34a462;
     border-radius: 40px;
     box-sizing: border-box;
-    
+
     text-decoration: none;
+}
+
+.promotion
+{
+    background: url(./images/ceiling.jpg) no-repeat;
+    background-size: cover;
+    height: 580px;
+    margin-top: 160px;
+}
+
+.achievement
+{
+    padding-top: 200px;
+}
+
+..achievement p
+{
+    padding-bottom: 20px;
+}
+
+.achievementFirst,
+.achievementThird
+{
+    font-family: LatoLight, sans-serif;
+    text-transform: uppercase;
+    color: #f7f7f9;
+}
+
+.achievementSecond,
+.achievementFourth
+{
+    font-family: LatoBold, sans-serif;
+    text-transform: uppercase;
+    color: #f7f7f9;
+}
+
+.achievementFirst {
+    font-size: 36px;
+}
+
+.achievementSecond
+{
+    font-size: 40px;
+}
+
+.achievementThird
+{
+    font-size: 34px;
+}
+
+.achievementFourth
+{
+    font-size: 32px;
 }
