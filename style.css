@@ -1,31 +1,31 @@
 @font-face
 {
     font-family: RobotoMedium;
-    src: url(./fonts/roboto/Roboto-Medium.ttf);
+    src: url("./fonts/roboto/Roboto-Medium.ttf");
 }
 
 @font-face
 {
     font-family: Roboto;
-    src: url(./fonts/roboto/Roboto-Regular.ttf);
+    src: url("./fonts/roboto/Roboto-Regular.ttf");
 }
 
 @font-face
 {
     font-family: RobotoBold;
-    src: url(./fonts/roboto/Roboto-Bold.ttf);
+    src: url("./fonts/roboto/Roboto-Bold.ttf");
 }
 
 @font-face
 {
     font-family: LatoBold;
-    src: url(./fonts/Lato-Bold.ttf);
+    src: url("./fonts/Lato-Bold.ttf");
 }
 
 @font-face
 {
     font-family: LatoMedium;
-    src: url(./fonts/Lato-Medium.ttf);
+    src: url("./fonts/Lato-Medium.ttf");
 }
 
 @font-face
@@ -48,7 +48,7 @@
 
 .promo
 {
-    background: url(./images/backgroundTop.jpg) no-repeat;
+    background: url("./images/backgroundTop.jpg") no-repeat;
     background-size: cover;
 
     height: 840px;
@@ -60,14 +60,7 @@
     margin: 0 auto;
 }
 
-.top
-{
-    width: 1056px;
-    height: 100px;
-    margin: 0 auto;
-}
-
-.siteMenu
+.site-menu
 {
     display: inline-block;
     width: 800px;
@@ -75,15 +68,10 @@
 
     margin-left: 95px;
     vertical-align: bottom;
-
 }
 
 .logo
 {
-    background: url(./images/domusLogo.png) no-repeat;
-    background-size: cover;
-    width: 153px;
-    height: 87px;
     display: inline-block;
 
     margin-top: 10px;
@@ -91,7 +79,7 @@
 
 .metro
 {
-    background: url(./images/metroLogo.png) no-repeat;
+    background: url("./images/metroLogo.png") no-repeat;
     width: 15px;
     height: 13px;
     display: inline-block;
@@ -101,15 +89,17 @@
 .address
 {
     display: inline-block;
-    padding: 20px 0 22px 0;
+    padding: 3px 0 22px 0;
 
     font-family: Roboto, sans-serif;
     font-size: 13px;
 
     color: #8b8b94;
+
+    border-bottom: 1px solid rgba(63,63,77,.6);
 }
 
-.fullAddress
+.full-address
 {
     padding-left: 24px;
 }
@@ -124,34 +114,19 @@
     font-size: 16px;
 }
 
-.phone_first
+.phone-first
 {
     color: #34a462;
 }
 
-.phone_big
+.phone-big
 {
     color: #8b8b94;
 }
 
-.menu:before
-{
-    width: 100%;
-    height: 1px;
-
-    border-top: 1px solid rgba(63,63,77,.6);
-
-    content: '';
-
-    position: absolute;
-
-    left: -1px;
-    top: -15px;
-}
-
 .menu
 {
-    margin-top: 14px;
+    margin-top: 4px;
     position: absolute;
 }
 
@@ -161,6 +136,7 @@
     display: inline-block;
 
     height: 20px;
+
     padding-right: 58px;
     text-transform: uppercase;
     margin-top: 20px;
@@ -168,7 +144,6 @@
     font-family: RobotoMedium, sans-serif;
     font-size: 12px;
     color: #eaeaec;
-
 }
 
 .menu a
@@ -188,7 +163,7 @@
     padding-right: 1px;
 }
 
-.mainDescription
+.main-description
 {
     text-align: center;
     margin-top: 230px;
@@ -230,7 +205,7 @@
     margin-left: -55px;
 }
 
-.mainDescription input
+.main-description input
 {
     color: #c6c7cc;
     font-family: LatoMedium, sans-serif;
@@ -251,7 +226,7 @@ input::-webkit-input-placeholder
     font-size: 14px;
 }
 
-.button
+button
 {
     font-family: RobotoMedium, sans-serif;
     font-size: 14px;
@@ -261,12 +236,13 @@ input::-webkit-input-placeholder
     width: 225px;
     height: 46px;
     margin: 20px 0 0 35px;
-    padding-top: 15px;
+    padding-top: 5px;
 
     text-align: center;
     text-transform: uppercase;
 
     border-radius: 45px;
+    border: none;
     background-color: #6652cb;
     box-sizing: border-box;
 
@@ -275,9 +251,9 @@ input::-webkit-input-placeholder
     color: #ffffff;
 }
 
-.button:after
+button:after
 {
-    background: url(./images/arrow.png) no-repeat;
+    background: url("./images/arrow.png") no-repeat;
     width: 10px;
     height: 10px;
     display: inline-block;
