@@ -224,7 +224,7 @@ input::-webkit-input-placeholder
     font-size: 14px;
 }
 
-.btn-arrow
+.btn
 {
     font-family: RobotoMedium, sans-serif;
     font-size: 14px;
@@ -256,6 +256,7 @@ input::-webkit-input-placeholder
 {
     font-size: 16px;
     background-color: #5948CB;
+    cursor: pointer;
 }
 
 .btn-green
@@ -271,6 +272,7 @@ input::-webkit-input-placeholder
 {
     font-size: 16px;
     background-color: #01A44E;
+    cursor: pointer;
 }
 
 .btn-arrow
