@@ -465,25 +465,24 @@ input::-webkit-input-placeholder
     text-transform: none;
 }
 
-.subject
-{
-    margin-left: 75px;
-
-    font-family: Lato, sans-serif;
-    font-size: 12px;
-    color: #a7a7a7;
-}
-
-.form-box input
+input
 {
     width: 320px;
     margin: 0 0 10px 50px;
     border: inherit;
-    border-bottom: 1px solid rgba(119,119,129,.6);
+    border-bottom: 1px solid rgba(119, 119, 129, .6);
     padding: 10px 0 10px 25px;
 
     font-family: Roboto, sans-serif;
     font-size: 14px;
+}
+
+label
+{
+    margin-left: 75px;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    color: #a7a7a7;
 }
 
 .warning
