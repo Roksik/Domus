@@ -556,8 +556,6 @@ label
 
 .services
 {
-    position: relative;
-
     padding: 62px 0 105px;
 }
 
@@ -573,6 +571,7 @@ label
 .services a
 {
     text-decoration: none;
+    position: relative;
 }
 
 .choose-service
@@ -581,6 +580,8 @@ label
     font-size: 18px;
 
     position: absolute;
+    left: 0;
+    bottom: 1px;
 
     box-sizing: border-box;
     width: 375px;
