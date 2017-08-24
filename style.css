@@ -563,15 +563,16 @@ label
 {
     display: inline-block;
 
-    margin: 2px 2px 0 0;
+    margin: 3px 2px 0 0;
 
     list-style-type: none;
 }
 
 .services a
 {
-    text-decoration: none;
     position: relative;
+
+    text-decoration: none;
 }
 
 .choose-service
@@ -580,8 +581,8 @@ label
     font-size: 18px;
 
     position: absolute;
-    left: 0;
     bottom: 1px;
+    left: 0;
 
     box-sizing: border-box;
     width: 375px;
@@ -644,9 +645,38 @@ label
     border-bottom: 2.5px solid #e5e5e5;
 }
 
-.cost-sign
+.cost-sign a
 {
-    margin-top: 65px;
+    background: url('./images/cost-sign.png');
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: 65px 0 0 150px;
+}
+
+.choose-price:hover .sign-pen a
+{
+    background-position: 0 -75px;
+}
+
+.sign-cube a
+{
+    background-position: 75px 0;
+}
+
+.choose-price:hover .sign-cube a
+{
+    background-position: 75px -75px;
+}
+
+.sign-infinity a
+{
+    background-position: 0 -150px;
+}
+
+.choose-price:hover .sign-infinity a
+{
+    background-position: 150px -150px;
 }
 
 .real-price
