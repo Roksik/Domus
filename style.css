@@ -606,6 +606,8 @@ label
 
 .choose-price
 {
+    position: relative;
+
     display: inline-block;
 
     width: 368px;
@@ -630,6 +632,20 @@ label
     color: #fff;
 }
 
+.choose-price:hover .header-price:after
+{
+    position: absolute;
+    top: 36px;
+    right: 36px;
+
+    width: 20px;
+    height: 20px;
+
+    content: '';
+
+    background: url('./images/click.png') no-repeat;
+}
+
 .header-price
 {
     font-family: Lato, sans-serif;
@@ -645,38 +661,40 @@ label
     border-bottom: 2.5px solid #e5e5e5;
 }
 
-.cost-sign a
+.cost-sign
 {
-    background: url('./images/cost-sign.png');
+    display: block;
+
     width: 75px;
     height: 75px;
-    display: block;
     margin: 65px 0 0 150px;
+
+    background: url('./images/cost-sign.png');
 }
 
-.choose-price:hover .sign-pen a
+.choose-price:hover .sign-pen
 {
     background-position: 0 -75px;
 }
 
-.sign-cube a
+.sign-cube
 {
-    background-position: 75px 0;
+    background-position: 153px 0;
 }
 
-.choose-price:hover .sign-cube a
+.choose-price:hover .sign-cube
 {
-    background-position: 75px -75px;
+    background-position: 153px -75px;
 }
 
-.sign-infinity a
+.sign-infinity
 {
-    background-position: 0 -150px;
+    background-position: 303px 0;
 }
 
-.choose-price:hover .sign-infinity a
+.choose-price:hover .sign-infinity
 {
-    background-position: 150px -150px;
+    background-position: 303px -75px;
 }
 
 .real-price
