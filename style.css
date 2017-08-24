@@ -581,8 +581,8 @@ label
     font-size: 18px;
 
     position: absolute;
-    bottom: 1px;
-    left: 0;
+    bottom: 3px;
+    left: -0.5px;
 
     box-sizing: border-box;
     width: 375px;
