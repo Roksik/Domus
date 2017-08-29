@@ -386,16 +386,27 @@ input::-webkit-input-placeholder
     background-color: #d9d9d9;
 }
 
-.projects-photo
+.projects
 {
+    font-size: 0;
+
     padding-top: 32px;
 }
 
-.projects-photo li
+.projects a
 {
     display: inline-block;
 
+    margin: 9px 9px 0 0;
+
     list-style-type: none;
+
+    text-decoration: none;
+}
+
+.projects a:nth-child(3n)
+{
+    margin-right: 0;
 }
 
 .show-more
@@ -556,23 +567,27 @@ label
 
 .services
 {
+    font-size: 0;
+
     padding: 62px 0 105px;
-}
-
-.services li
-{
-    display: inline-block;
-
-    margin: 3px 2px 0 0;
-
-    list-style-type: none;
 }
 
 .services a
 {
     position: relative;
 
+    display: inline-block;
+
+    margin: 9px 9px 0 0;
+
+    list-style-type: none;
+
     text-decoration: none;
+}
+
+.services a:nth-child(3n)
+{
+    margin-right: 0;
 }
 
 .choose-service
@@ -581,11 +596,11 @@ label
     font-size: 18px;
 
     position: absolute;
-    bottom: 3px;
-    left: -0.5px;
+    bottom: 0;
+    left: 0;
 
     box-sizing: border-box;
-    width: 375px;
+    width: 374px;
     height: 80px;
     padding: 20px 0 20px 35px;
 
@@ -598,7 +613,6 @@ label
 .prices-back
 {
     height: 763px;
-    margin-top: 80px;
 
     background: url('./images/byke.jpg') no-repeat;
     background-size: cover;
@@ -736,7 +750,9 @@ label
     background: url('./images/next-button.png') no-repeat;
 }
 
-.container-footer
+.container_footer
 {
+    margin-top: 10px;
+
     text-align: center;
 }
