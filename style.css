@@ -496,8 +496,6 @@ input::-webkit-input-placeholder
 
 .order
 {
-    float: right;
-
     width: 450px;
     height: 475px;
     margin: 55px 40px;
@@ -506,13 +504,24 @@ input::-webkit-input-placeholder
     background-color: #fff;
 }
 
+.order-left
+{
+    float: left;
+}
+
+.order-right
+{
+    float: right;
+}
+
 .form-header
 {
     font-family: Lato, sans-serif;
     font-size: 20px;
 
     width: 230px;
-    margin: 30px 0 30px 115px;
+    height: 100px;
+    padding: 30px 0 0 115px;
 
     text-align: center;
     text-transform: uppercase;
@@ -757,4 +766,20 @@ label
     margin-top: 10px;
 
     text-align: center;
+}
+
+.visual-back
+{
+    height: 1260px;
+
+    background: url('./images/middleRoom.jpg') no-repeat;
+    background-size: cover;
+}
+
+.recommendation {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+
+    color: #ffffff;
+    padding-top: 180px;
 }
