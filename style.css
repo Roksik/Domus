@@ -776,10 +776,36 @@ label
     background-size: cover;
 }
 
-.recommendation {
+.recommendation
+{
     font-family: Lato, sans-serif;
     font-size: 20px;
 
-    color: #ffffff;
     padding-top: 180px;
+
+    color: #fff;
+}
+
+.make-order
+{
+    height: 622px;
+}
+
+.visual-header
+{
+    font-family: Lato, sans-serif;
+    font-size: 28px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.visual-img
+{
+    height: 460px;
+    margin-top: 65px;
+
+    background: url('./images/repairedRoom.jpg') no-repeat;
 }
