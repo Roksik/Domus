@@ -445,6 +445,7 @@ input::-webkit-input-placeholder
 .achievement
 {
     display: inline-block;
+    width: 50%;
 
     margin-top: 200px;
 }
@@ -498,7 +499,7 @@ input::-webkit-input-placeholder
 {
     width: 450px;
     height: 475px;
-    margin: 55px 40px;
+    margin: 52px 52px 0 34px;
 
     outline: 1px solid green;
     background-color: #fff;
@@ -779,6 +780,7 @@ label
 
 .recommendation
 {
+    width: 53%;
     font-family: Lato, sans-serif;
     font-size: 20px;
 
@@ -809,4 +811,11 @@ label
     margin-top: 65px;
 
     background: url('./images/repairedRoom.jpg') no-repeat;
+}
+
+.clearfix:after
+{
+    content: "";
+    display: table;
+    clear: both;
 }
