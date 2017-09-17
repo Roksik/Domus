@@ -521,9 +521,8 @@ input::-webkit-input-placeholder
     font-size: 20px;
     color: #2d2d38;
 
-    width: 230px;
     height: 100px;
-    padding: 30px 0 0 115px;
+    padding-top: 30px;
 
     text-align: center;
     text-transform: uppercase;
@@ -570,7 +569,7 @@ label
     font-size: 12px;
 
     width: 300px;
-    margin: 16px 0 0 70px;
+    margin: 27px 0 0 70px;
 
     text-align: center;
 
@@ -780,7 +779,7 @@ label
 
 .recommendation
 {
-    width: 53%;
+    width: 52%;
     font-family: Lato, sans-serif;
     font-size: 20px;
 
@@ -808,7 +807,7 @@ label
 .visual-img
 {
     height: 460px;
-    margin-top: 65px;
+    margin-top: 71px;
 
     background: url('./images/repairedRoom.jpg') no-repeat;
 }
