@@ -446,6 +446,7 @@ input::-webkit-input-placeholder
 {
     display: inline-block;
 
+    width: 50%;
     margin-top: 200px;
 }
 
@@ -494,16 +495,28 @@ input::-webkit-input-placeholder
     font-size: 32px;
 }
 
+.make-order
+{
+    padding-top: 52px;
+}
+
 .order
 {
-    float: right;
-
     width: 450px;
-    height: 475px;
-    margin: 55px 40px;
+    margin-left: 32px;
+    padding-bottom: 22px;
 
-    outline: 1px solid green;
     background-color: #fff;
+}
+
+.order-left
+{
+    float: left;
+}
+
+.order-right
+{
+    float: right;
 }
 
 .form-header
@@ -511,11 +524,13 @@ input::-webkit-input-placeholder
     font-family: Lato, sans-serif;
     font-size: 20px;
 
-    width: 230px;
-    margin: 30px 0 30px 115px;
+    height: 100px;
+    padding-top: 30px;
 
     text-align: center;
     text-transform: uppercase;
+
+    color: #2d2d38;
 }
 
 .action
@@ -559,7 +574,7 @@ label
     font-size: 12px;
 
     width: 300px;
-    margin: 16px 0 0 70px;
+    margin: 27px 0 0 70px;
 
     text-align: center;
 
@@ -757,4 +772,51 @@ label
     margin-top: 10px;
 
     text-align: center;
+}
+
+.visual-back
+{
+    background: url('./images/middleRoom.jpg') no-repeat;
+    background-size: cover;
+}
+
+.recommendation
+{
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+
+    float: right;
+
+    width: 52%;
+    padding-top: 128px;
+
+    color: #fff;
+}
+
+.visual-header
+{
+    font-family: Lato, sans-serif;
+    font-size: 28px;
+
+    padding-top: 100px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.visual-img
+{
+    height: 460px;
+    margin-top: 71px;
+    padding-bottom: 80px;
+}
+
+.clearfix:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
 }
