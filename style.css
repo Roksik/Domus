@@ -820,3 +820,48 @@ label
 
     content: '';
 }
+
+.team
+{
+    font-size: 0;
+
+    padding: 42px 0 105px;
+}
+
+.team a
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 285px;
+    margin-bottom: 80px;
+
+    list-style-type: none;
+
+    text-decoration: none;
+}
+
+.choose-master
+{
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+
+    box-sizing: border-box;
+    width: 100%;
+
+    padding: 20px 0 20px 35px;
+
+    color: #2d2d38;
+}
+
+.position
+{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+
+}
