@@ -824,8 +824,8 @@ label
 .team
 {
     font-size: 0;
-
-    padding: 42px 0 105px;
+    outline: 1px solid red;
+    margin-top: 42px;
 }
 
 .team a
@@ -863,5 +863,13 @@ label
 {
     font-family: Roboto, sans-serif;
     font-size: 12px;
+}
 
+.oneReview img,
+.name,
+.date,
+.reviewText
+{
+    display: inline-block;
+    outline: 1px solid red;
 }
