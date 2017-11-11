@@ -824,7 +824,7 @@ label
 .team
 {
     font-size: 0;
-    outline: 1px solid red;
+
     margin: 42px 0;
 }
 
@@ -909,7 +909,7 @@ label
 .faq
 {
     margin: 65px 0 62px 0;
-    outline: 1px solid blue;
+
     font-size: 18px;
 }
 
@@ -921,4 +921,20 @@ label
 
     color: #ffffff;
     background-color: #44415a;
+}
+
+.map
+{
+    background: url('./images/map.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 59px;
+}
+
+.contacts
+{
+    width: 450px;
+
+    padding: 50px 50px 30px 50px;
+    background-color: #ffffff;
+    outline: 1px solid darkgreen;
 }
