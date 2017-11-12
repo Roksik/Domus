@@ -910,6 +910,7 @@ label
 {
     margin: 65px 0 62px 0;
 
+    font-family: Lato, sans-serif;
     font-size: 18px;
 }
 
@@ -933,8 +934,47 @@ label
 .contacts
 {
     width: 450px;
+    box-sizing: border-box;
 
     padding: 50px 50px 30px 50px;
     background-color: #ffffff;
-    outline: 1px solid darkgreen;
+}
+
+.contactsHeader
+{
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-bottom: 35px;
+}
+
+.officeAddress,
+.eMail,
+.officePhone
+{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.officeAddress
+{
+    padding-bottom: 35px;
+}
+
+.eMail
+{
+    padding-bottom: 27px;
+}
+
+.officePhone
+{
+    padding-bottom: 21px;
+}
+.info
+{
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
 }
