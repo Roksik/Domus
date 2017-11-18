@@ -236,6 +236,7 @@
     border: inherit;
     border-bottom: 1px solid rgba(119,119,129,.6);
     background-color: inherit;
+    width: 222px;
 }
 
 input::-webkit-input-placeholder
@@ -928,7 +929,9 @@ label
 {
     background: url('./images/map.jpg') no-repeat;
     background-size: cover;
-    padding-top: 59px;
+    padding: 59px 0 45px 0;
+
+    height: 480px;
 }
 
 .contacts
@@ -978,3 +981,65 @@ label
     font-family: Roboto, sans-serif;
     text-align: center;
 }
+
+.contactsWidget
+{
+    margin: 122px 0 0 32px;
+    height: 458px;
+}
+
+.projectHead
+{
+    text-align: center;
+    width: 290px;
+    float: left;
+    font-weight: bold;
+}
+
+.headName
+{
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+}
+
+.headPosition
+{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+.contactsInfo
+{
+    width: 800px;
+    float: right;
+    text-align: right;
+    font-family: Lato, sans-serif;
+}
+
+.infoQuestions
+{
+    font-size: 34px;
+}
+
+.infoCall
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.infoMail
+{
+    font-size: 32px;
+}
+
+.infoCallBack
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contactsInfo input
+{
+    width: 222px;
+}
+
