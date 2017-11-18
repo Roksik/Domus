@@ -136,7 +136,7 @@
     color: #8b8b94;
 }
 
-.menu
+.menuTop
 {
     position: absolute;
 
@@ -148,13 +148,17 @@
     font-family: RobotoMedium, sans-serif;
     font-size: 12px;
 
-    display: inline-block;
-
     height: 20px;
-    margin-top: 20px;
-    padding-right: 58px;
 
     list-style-type: none;
+}
+
+.menuTop li
+{
+    display: inline-block;
+
+    margin-top: 20px;
+    padding-right: 58px;
 
     text-transform: uppercase;
 
@@ -174,7 +178,7 @@
     color: #34a462;
 }
 
-.menu li:last-child
+.menuTop li:last-child
 {
     padding-right: 1px;
 }
@@ -229,6 +233,7 @@
     font-family: LatoMedium, sans-serif;
     font-size: 14px;
 
+    width: 222px;
     padding-bottom: 10px;
     padding-left: 22px;
 
@@ -236,7 +241,6 @@
     border: inherit;
     border-bottom: 1px solid rgba(119,119,129,.6);
     background-color: inherit;
-    width: 222px;
 }
 
 input::-webkit-input-placeholder
@@ -320,6 +324,14 @@ input::-webkit-input-placeholder
 {
     width: 350px;
     margin-left: 50px;
+}
+
+.btn-width-m
+{
+    float: right;
+
+    width: 280px;
+    padding-top: 15px;
 }
 
 .btn-width-s
@@ -854,7 +866,6 @@ label
 
     box-sizing: border-box;
     width: 100%;
-
     padding: 20px 0 20px 35px;
 
     color: #2d2d38;
@@ -868,23 +879,43 @@ label
 
 .reviews
 {
+    height: 750px;
     margin-top: 55px;
-    outline: 1px solid green;
 }
 
-.oneReview img,
-.name,
-.date,
-.reviewText
+.information
 {
     display: inline-block;
-    outline: 1px solid red;
+
+    width: 960px;
+    padding-left: 30px;
+}
+
+.oneReview img
+{
+    display: inline-block;
+
+    padding-top: 20px;
+}
+
+.oneReview
+{
+    padding-bottom: 50px;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.reviewLast
+{
+    border-bottom: none;
 }
 
 .name
 {
     font-family: Lato, sans-serif;
     font-size: 18px;
+    font-weight: bold;
+
     color: #2d2d38;
 }
 
@@ -892,6 +923,7 @@ label
 {
     font-family: Roboto, sans-serif;
     font-size: 12px;
+
     color: #a7a7a7;
 }
 
@@ -899,6 +931,9 @@ label
 {
     font-family: Roboto, sans-serif;
     font-size: 16px;
+
+    margin-top: 20px;
+
     color: #2d2d38;
 }
 
@@ -909,48 +944,66 @@ label
 
 .faq
 {
-    margin: 65px 0 62px 0;
-
     font-family: Lato, sans-serif;
     font-size: 18px;
+
+    margin: 65px 0 62px 0;
 }
 
 .faq li
 {
-    list-style-type: none;
-    padding: 18px 36px;
     margin-bottom: 6px;
+    padding: 18px 36px;
 
-    color: #ffffff;
+    list-style-type: none;
+
+    color: #fff;
     background-color: #44415a;
 }
 
 .map
 {
-    background: url('./images/map.jpg') no-repeat;
-    background-size: cover;
+    height: 480px;
     padding: 59px 0 45px 0;
 
-    height: 480px;
+    background: url('./images/map.jpg') no-repeat;
+    background-size: cover;
 }
 
 .contacts
 {
-    width: 450px;
-    box-sizing: border-box;
+    position: relative;
 
+    box-sizing: border-box;
+    width: 450px;
     padding: 50px 50px 30px 50px;
-    background-color: #ffffff;
+
+    background-color: #fff;
+}
+
+.contacts::before
+{
+    position: absolute;
+    top: 250px;
+    left: -270px;
+
+    width: 22px;
+    height: 29px;
+
+    content: '';
+
+    background: url('./images/location.png') no-repeat;
 }
 
 .contactsHeader
 {
     font-family: Lato, sans-serif;
     font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
 
     padding-bottom: 35px;
+
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .officeAddress,
@@ -963,37 +1016,98 @@ label
 
 .officeAddress
 {
-    padding-bottom: 35px;
+    position: relative;
+
+    padding: 0 0 20px 25px;
+}
+
+.officeAddress::before
+{
+    position: absolute;
+    left: 5px;
+
+    width: 15px;
+    height: 17px;
+
+    content: '';
+
+    background: url('./images/locationSmall.png') no-repeat;
 }
 
 .eMail
 {
-    padding-bottom: 27px;
+    position: relative;
+
+    padding: 0 0 20px 25px;
+}
+
+.eMail::before
+{
+    position: absolute;
+    left: 5px;
+
+    width: 15px;
+    height: 11px;
+
+    content: '';
+
+    background: url('./images/mail.png') no-repeat;
 }
 
 .officePhone
 {
-    padding-bottom: 21px;
+    position: relative;
+
+    padding: 0 0 20px 25px;
 }
+
+.officePhone::before
+{
+    position: absolute;
+    left: 5px;
+
+    width: 15px;
+    height: 15px;
+
+    content: '';
+
+    background: url('./images/phone.png') no-repeat;
+}
+
+.socialNet
+{
+    padding-left: 20px;
+}
+
 .info
 {
-    font-size: 12px;
     font-family: Roboto, sans-serif;
+    font-size: 12px;
+
+    margin-top: 30px;
+    padding-top: 26px;
+
     text-align: center;
+
+    color: #a7a7a7;
+    border-top: 1px solid;
 }
 
 .contactsWidget
 {
-    margin: 122px 0 0 32px;
     height: 458px;
+    margin: 122px 0 0 32px;
 }
 
 .projectHead
 {
-    text-align: center;
-    width: 290px;
-    float: left;
     font-weight: bold;
+
+    float: left;
+
+    width: 290px;
+
+    text-align: center;
 }
 
 .headName
@@ -1010,10 +1124,13 @@ label
 
 .contactsInfo
 {
-    width: 800px;
-    float: right;
-    text-align: right;
     font-family: Lato, sans-serif;
+
+    float: right;
+
+    width: 800px;
+
+    text-align: right;
 }
 
 .infoQuestions
@@ -1036,10 +1153,39 @@ label
 {
     font-size: 30px;
     font-weight: bold;
+
+    padding-bottom: 40px;
 }
 
 .contactsInfo input
 {
     width: 222px;
+}
+
+.bottom
+{
+    height: 220px;
+    padding-top: 55px;
+
+    background: url('./images/backgroundBottom.jpg') no-repeat;
+    background-size: cover;
+}
+
+.permission
+{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+
+    display: inline-block;
+
+    margin-left: 70px;
+
+    color: #85858f;
+}
+
+
+.siteBottom
+{
+    height: 100px;
 }
 
